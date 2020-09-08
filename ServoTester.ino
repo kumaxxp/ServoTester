@@ -25,9 +25,9 @@ movingAvg meter0(5);
 movingAvg meter1(5);
 movingAvg meter2(5);
 
-const int PIN_SERVO_0 = 5;
-const int PIN_SERVO_1 = 11;
-const int PIN_SERVO_2 = 12;
+const int PIN_SERVO_0 = 10;
+const int PIN_SERVO_1 = 9;
+const int PIN_SERVO_2 = 8;
 
 void setup() {
   servo0.attach( PIN_SERVO_0 );
